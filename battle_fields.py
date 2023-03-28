@@ -20,13 +20,7 @@ def prepare_board(size, ship_sizes): # function to prepare board with size (10) 
             start_col = random.randint(0, size-1) # starting column
             
             direction = random.choice(['horizontal', 'vertical']) # direction is actually orientation
-            
-            '''---- is horizontal
-               |
-               |
-               |
-               | is vertical'''
-               
+        
                
             '''if direction is horizontal, we will use columns. 
         For example, 1,2,3 are in horizontal order. To access 2, we have to move our column by increment of 1.
